@@ -105,4 +105,8 @@ font-family: 'Times New Roman', Times, serif;
         color: lightblue;
         transform: translateY(-30px);
         }
+ .DOB{
+            transform: translate(175px);
+            margin-top: 5px;
+        }
             
