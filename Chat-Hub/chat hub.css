@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 body {
 font-family: "Muli", sans-serif;
-background: linear-gradient(120deg,#08568a,#1da7f1,#fcff5170);
+background: linear-gradient(120deg,#08568a,#1da7f1,#32323070);
 color: #fff;
 display: flex;
 flex-direction: column; 
@@ -18,23 +18,28 @@ margin: 0;
 font-family: 'Times New Roman', Times, serif;
 
 }
-.container {
+.containery {
 
     background-color:#39364670;
      padding: 20px 40px;
-     border-radius: 5px;
+     border-radius: 25px;
+     overflow: auto;
  }
     
-.container h1 {
+.containery h1 {
     text-align: center;
     margin-bottom: 50px;
     
     }
+label{
+    color: #ffffff;
+}
     
-.container a {
+.containery a {
     
     text-decoration: none;
     color: lightblue;
+
     
     }
     
@@ -63,14 +68,14 @@ font-family: 'Times New Roman', Times, serif;
     
     margin-top: 30px;
     }
-    .form-control {
+    .form-controlb {
         position: relative;
         margin: 20px 0 40px; 
         width: 300px;
         }
         
-        .form-control input {
-        background-color: transparent;
+        .form-controlb input {
+        background-color: transparent; 
         border: 0;
         border-bottom: 2px #FFF solid;
         display: block;
@@ -78,35 +83,70 @@ font-family: 'Times New Roman', Times, serif;
         padding: 15px 0;
         font-size: 18px;
         color: #fff;
+        width: 30vw;
         }
         
-        .form-control input:focus,
-        .form-control input:valid {
+        .form-controlb input:focus,
+        .form-controlb input:valid {
         outline: 0;
         border-bottom-color: lightblue;
         }
-        .form-control label { 
+        .form-controlb label { 
         position: absolute; 
         top: 15px;
         left: 0;
         pointer-events: none;
         }
         
-        .form-control label span {
+        .form-controlb label span {
         display: inline-block;
         font-size: 18px;
         min-width: 5px;
         transition: 0.3s cubic-bezler (0.68, -0.55, 0.265,
-        1.55);
+        1.55) ;
         }
         
-        .form-control input:focus + label span,
-        .form-control input:valid+ label span { 
+        .form-controlb input:focus + label span,
+        .form-controlb input:valid+ label span { 
         color: lightblue;
         transform: translateY(-30px);
         }
  .DOB{
-            transform: translate(175px);
+            transform: translate(20vw);
             margin-top: 5px;
         }
-            
+.chat-content{
+    margin-left: 5vw;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    border-radius: 10%;
+    margin-top: 7vh;
+    height: 75vh;
+    margin-left: -10vh;
+
+}
+form{
+    height: 55vh;
+    width: 30vw; 
+    border-radius: 50%;
+}
+.heading{
+    text-align: center;
+}
+.form-control{
+    background-color: transparent;
+    border-width: 0;
+}
+.sub{
+    border-radius: 15cm;
+    border-top: 5cm;
+}
+.useless{
+    height: 10vh;
+}
+/* #08568a,#1da7f1,#fcff5170 */ 
