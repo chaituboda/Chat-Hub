@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHAT HUB</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/222cea3eed.js"></script>
+  </head>
+  <body>
+    <div class="servers">
+      <div class="logo">
+        <img src="assets/chat-logo.jpeg" alt="CHAT HUB" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count"></span>
+        <img src="assets/server1.jpg" alt="server" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count"></span>
+        <img src="assets/server2.jpg" alt="server" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count"></span>
+        <img src="assets/server3.jpg" alt="server" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count"></span>
+        <img src="assets/server4.jpg" alt="server" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count"></span>
+        <img src="assets/server5.jpg" alt="server" />
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar__top">
+        <input type="text" placeholder="Find or start a conversation" />
+      </div>
+      <div class="sidebar__icon">
+        <i class="fas fa-user-friends fa-lg"></i>
+        <span>Friends</span>
+      </div>
+      <div class="sidebar__users">
+        <div class="sidebar__usersHeader">
+          <div class="sidebar__header">
+            <h4>Persons</h4>
+          </div>
+          <i class="fas fa-plus sidebar__addUser"></i>
+        </div>
+        <div>
+          <div class="sidebar__user">
+            <div>
+              <span class="status"></span>
+              <img src="assets/user1.jpg" alt="avatar" />
+            </div>
+            <h4>Raghu</h4>
+          </div>
+          <div class="sidebar__user">
+            <div>
+              <span class="status"></span>
+              <img src="assets/user2.jpg" alt="avatar" />
+            </div>
+            <h4>keerthi</h4>
+          </div>
+          <div class="sidebar__user">
+            <div>
+              <span class="status"></span>
+              <img src="assets/user3.jpg" alt="avatar" />
+            </div>
+            <h4>Mahesh</h4>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__profile">
+        <div>
+          <span class="status"></span>
+          <img src="assets/server2.jpg" alt="avatar" />
+        </div>
+        <div class="sidebar__profileInfo">
+          <h3>Prasanna</h3>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="chat">
+      <div>
+        <div class="chatHeader">
+          <div class="chatHeader__left">
+            <span class="chatHeader__Dm">@</span>
+            <h3>Team 8</h3>
+          </div>
+          <div class="chatHeader__right">
+            
+
+            <div class="search">
+              <input type="text" placeholder="search" />
+              <i class="fas fa-search fa-lg"></i>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+      <div class="chat__messages">
+          <div class="message">
+              <img src="assets/user3.jpg" alt="avatar">
+              <div class="message__info">
+                  <h4>Mahesh <span class="message__timestamp">18/09/2022</span></h4>
+                  <p>Hello</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="chat__input">
+        <i class="fas fa-plus-circle fa-lg"></i>
+        <form>
+            <input class="sendMessage" type="text" placeholder="send message">
+            <button class="chat__inputButton" type="submit">Send</button>
+        </form>
+        <div>
+          <i class="fas fa-angle-right fa-lg"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
